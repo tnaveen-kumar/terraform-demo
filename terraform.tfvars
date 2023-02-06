@@ -4,9 +4,7 @@ variable "Medium_instance_type" {
  description = "EC2 instance type"
 }
 
-
 variable "Micro_instance_type" {
- type = string
  default = "t2.micro"
  description = "EC2 instance type"
 }
